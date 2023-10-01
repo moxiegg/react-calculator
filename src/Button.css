@@ -1,0 +1,22 @@
+.button-container{
+    display:grid;
+    grid-template-columns: repeat(4,max-content);
+    grid-template-rows: repeat(5,1fr);
+    width:max-content;
+    /* padding:20px; */
+    gap:10px;
+}
+.button-container div{
+    border:1px solid black;
+    border-radius: 50%;
+    width:25px;
+    height:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+.button-container div:hover{
+    background-color: black;
+    color:white;
+}
